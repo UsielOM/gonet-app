@@ -58,7 +58,7 @@ export class GonetApp extends LitElement {
 
     render() {
             return html `
-    <h1>Esta es mi app renderizada</h1> 
+    <h1>Mi primer proyecto en LIT </h1> 
     ${this.bandera ? html `
         <h2>Regalos</h2>
         <div class="center">
