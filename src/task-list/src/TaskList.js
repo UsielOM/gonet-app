@@ -81,7 +81,7 @@ export class TaskList extends LitElement {
         <div>
           <div class="card">
             <div class="div1">
-              <label>HOLA TAREAS INCOMPLETAS</label>
+              <label>TAREAS INCOMPLETAS</label>
               ${this.tareas.map((item) => html`
                   <div class="cardFalso">
                     <p>${item.numero}</p>
